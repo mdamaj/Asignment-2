@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Hotel</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/c692448a5b.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="logo/logo.png" type="image/x-icon">
+
+</head>
+<body>
+  <!-- Header Section Start -->
+  <header>
+    <nav>
+      <div class="nav-links">
+        <a href="#" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#news">Newsletter</a>
+        <div class="logo">
+          Hotel<br>Logo
+          <i class="fa-solid fa-angle-up"></i>
+        </div>
+        <a href="#pic">Rooms</a>
+        <a href="#pic">Services</a>
+        <a href="#price">Pricing</a>
+      </div>
+    </nav>
+  </header>
+  <!-- Header Section End -->
+
+  <!-- Hero Section Start -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <h1>Discover Extraordinary <br> Comfort in Hotels</h1>
+    </div>
+    <div class="slide-dot">
+      <img src="image/Ellipse 2.png" alt="">
+      <img src="image/Ellipse 1.png" alt="">
+      <img src="image/Ellipse 3.png" alt="">
+    </div>
+  </section>
+  <!-- Hero Section End -->
+
+  <!-- Book a room Section Start -->
+
+  <section class="booking-section" id="about">
+    <div class="booking-grid">
+      <h2>Book a Room</h2>
+      <p>Discover the perfect space for you!</p>
+      <div class="booking-form">
+        <div class="booking-column">
+          <h4>Date</h4>
+          <div class="booking-box">
+            <i class="fas fa-calendar-alt"></i>
+            <span>Check Available</span>
+          </div>
+        </div>
+        <div class="booking-column">
+          <h4>Person</h4>
+          <div class="booking-box">
+            <i class="fas fa-user"></i>
+            <span>Adults</span>
+            <select>
+              <option value="1">1</option>
+              <option selected value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <div class="person-box">
+             <i class="fas fa-child"></i>
+             <span>Children</span>
+              <select>
+                <option selected value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <button class="book-now-btn">BOOK NOW</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Book a room Section End -->
+
+  <!-- picture Section Start -->
+
+  <div class="grid-picture" id="pic">
+    <div class="picture picture-large">
+      <img src="image/room.png" alt="Rooms">
+      <h2>Rooms</h2>
+    </div>
+
+    <div class="picture">
+      <img src="image/dinning.png" alt="Dining">
+      <h2>Dining</h2>
+    </div>
+
+    <div class="picture">
+      <img src="image/confarece.png" alt="Conferences & Meetings">
+      <h2>Conferences &<br>Meetings</h2>
+    </div>
+
+    <div class="picture">
+      <img src="image/service & and Facalitice.png" alt="Service & Facilities">
+      <h2>Service & Facilities</h2>
+    </div>
+
+    <div class="picture">
+      <img src="image/wedding package.png" alt="Wedding Package">
+      <h2>Wedding Package</h2>
+    </div>
+  </div>
+
+  <!-- picture Section End -->
+
+  <!-- card Section Start -->
+
+  <section class="special-offers" id="price">
+    <div class="offers-header">
+      <p class="subtitle">
+        Special Offers
+      </p>
+      <h1>Best offer of the month</h1>
+      <p class="description">
+        Experience Fantastic Benefits and Obtain Better Rates When You <br />
+        Make a Direct Booking on Our Official Website
+      </p>
+      <a href="#" class="view-all">View all</a>
+    </div>
+
+    <div class="cards">
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="image/honymoon-room.png" alt="Honeymoon">
+        <div class="card-content">
+          <p class="category">Room</p>
+          <div class="title-row">
+            <h3>Honeymoon</h3>
+            <span class="icon">👥 2</span>
+          </div>
+          <p class="text">Indulge in a Memorable One-Time Romantic Dinner for Two</p>
+          <p class="price">$699 <span>/night</span></p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <img src="image/meeting-room.png" alt="Meetings">
+        <div class="card-content">
+          <p class="category">Room</p>
+          <div class="title-row">
+            <h3>Meetings</h3>
+            <span class="icon">👥 30</span>
+          </div>
+          <p class="text">Experience an Exclusively Private Environment to Boost Your Productivity</p>
+          <p class="price">$999 <span>/night</span></p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <img src="image/romantic-dinning-room.png" alt="Romantic Dining">
+        <div class="card-content">
+          <p class="category">Dining</p>
+          <div class="title-row">
+            <h3>Romantic Dining</h3>
+            <span class="icon">👥 2</span>
+          </div>
+          <p class="text">Indulge in a Memorable One-Time Romantic Dinner for Two</p>
+          <p class="price">$499 <span>/table</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- card Section End -->
+
+  <!-- footer Section Start -->
+
+    <footer class="footer">
+    <div class="footer-container">
+      <!-- Left: Newsletter Section -->
+      <div class="newsletter" id="news">
+        <h2>Newsletter & Special Promo</h2>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Enter your email here" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+
+      <!-- Right: Logo + Links -->
+      <div class="footer-links">
+        <div class="footer-logo">
+          Hotel<br>Logo
+          <i class="fa-solid fa-angle-up"></i>
+        </div>
+        <div class="link-columns">
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Location</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Term of Use</a></li>
+            <li><a href="#">Privacy Police</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Services & Facilities</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">How to book</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <hr class="footer-line" />
+    <br>
+    <p class="copyright">
+      © Copyright Booking Hotels. All right reserved.
+    </p>
+  </footer>
+
+  <!-- footer Section End -->
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+</body>
+</html>
